@@ -1,11 +1,9 @@
 {
-  "title": "Linux Lab 1 - Getting Started",
   "details": {
     "intro": {
       "text": "intro.md",
       "background": "setup.sh"
     },
-
     "steps": [
       {
         "title": "Step 1",
@@ -13,15 +11,34 @@
       },
       {
         "title": "Step 2",
-        "text": "step2/text.md"
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Step 3",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Step 4",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Step 5",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      },
+      {
+        "title": "Step 6",
+        "text": "step6/text.md",
+        "verify": "step6/verify.sh"
       }
     ],
-
     "finish": {
       "text": "finish.md"
     }
   },
-
   "backend": {
     "imageid": "ubuntu"
   }
