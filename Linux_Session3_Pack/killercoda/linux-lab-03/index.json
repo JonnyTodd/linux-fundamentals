@@ -1,0 +1,48 @@
+{
+  "title": "Linux Fundamentals - Lab 3: Access and System Checks",
+  "description": "Correct insecure file permissions, stop an unwanted process and collect storage and network evidence.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Identify the account",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Audit the payroll file",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Secure the payroll file",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Stop the unwanted process",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Investigate storage use",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      },
+      {
+        "title": "Complete the systems check",
+        "text": "step6/text.md",
+        "verify": "step6/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
+
