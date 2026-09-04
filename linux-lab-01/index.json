@@ -1,8 +1,11 @@
 {
-  "details": {
-    "intro": {
-      "text": "intro.md",
-      "background": "setup.sh"
+"title": "Linux Fundamentals - Lab 1: Linux Basics",
+"description": "An introduction to a few basic Linux commands.",
+"details": {
+  "intro": {
+    "text": "intro.md",
+    "background": "setup.sh"
+
     },
     "steps": [
       {
