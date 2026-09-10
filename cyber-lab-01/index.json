@@ -1,0 +1,47 @@
+{
+  "title": "Cyber Security Fundamentals - Lab 1: The Northstar Security Audit",
+  "description": "Inspect a prepared Ubuntu system, gather evidence, classify security issues and prioritise risk.",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Receive the audit brief",
+        "text": "step1/text.md"
+      },
+      {
+        "title": "Trace exposed information",
+        "text": "step2/text.md",
+        "verify": "step2/verify.sh"
+      },
+      {
+        "title": "Audit access and accounts",
+        "text": "step3/text.md",
+        "verify": "step3/verify.sh"
+      },
+      {
+        "title": "Check resilience evidence",
+        "text": "step4/text.md",
+        "verify": "step4/verify.sh"
+      },
+      {
+        "title": "Build the risk register",
+        "text": "step5/text.md",
+        "verify": "step5/verify.sh"
+      },
+      {
+        "title": "Recommend the first actions",
+        "text": "step6/text.md",
+        "verify": "step6/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
